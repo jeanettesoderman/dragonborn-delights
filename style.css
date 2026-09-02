@@ -337,6 +337,14 @@ h2,
   padding: 26px;
   box-shadow: 0 12px 30px rgba(20, 42, 43, 0.06);
 }
+.card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card h3 a:hover {
+  text-decoration: underline;
+}
 
 .icon {
   width: 54px;
@@ -445,34 +453,7 @@ h2,
 
 .project-card h3 {
   font-size: 1.6rem;
-  margin-top: 12px;
-}
 
-/* DJ Grand Daddy gradient title */
-
-.grand-daddy-title {
-  display: block;
-  width: fit-content;
-  background: linear-gradient(90deg, #00d9ff, #7657ff, #ff2e93);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-}
-
-.project-card p {
-  margin-top: 12px;
-}
-
-.contact-layout {
-  display: grid;
-  grid-template-columns: 0.78fr 1.22fr;
-  gap: 24px;
-  align-items: start;
-}
-
-.contact-box a {
-  color: var(--teal-dark);
   font-weight: 800;
 }
 
